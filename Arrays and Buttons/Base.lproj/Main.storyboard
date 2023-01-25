@@ -31,6 +31,9 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9p-0r-9CR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -45,6 +48,9 @@
                             <constraint firstItem="5ax-eE-Kcq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z73-Kg-JqJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="yY5-4O-T1m" id="VR0-n6-qce"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
